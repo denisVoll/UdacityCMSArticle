@@ -27,8 +27,8 @@ class Config(object):
     # if not CLIENT_SECRET:
     #     raise ValueError("Need to define CLIENT_SECRET environment variable")
 
-    #AUTHORITY = "https://login.microsoftonline.com/common"
-    AUTHORITY = "https://login.microsoftonline.com/udacity"
+    AUTHORITY = "https://login.microsoftonline.com/common"
+    #AUTHORITY = "https://login.microsoftonline.com/udacity"
 
     CLIENT_ID = "e3a1457f-3fef-4bc4-899b-2b5ae6ab3748"
 
